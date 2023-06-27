@@ -1,0 +1,361 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1304421816/video/abstract-wave-lines-rainbow.jpg?s=640x640&k=20&c=kXTXrz99RMETN5jOEfDaepnf6arjMwpnokbIGznBsOU=);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(24, 23, 23);
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    border-radius: 0px 10px 0px 10px;
+}
+
+header nav {
+    display: flex;
+    gap: 3rem;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Belanosima', sans-serif
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+}
+
+header div a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: blueviolet;
+}
+
+header div a:hover{
+    color: orange;
+}
+
+header div{
+    position: relative;
+    left: 200px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: blueviolet;
+    position: relative;
+    top: 5px;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+header nav button{
+    font-family: 'Belanosima', sans-serif;
+    width: 80px;
+    height: 30px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    border-style: none;
+    margin-left: 10px;
+}
+
+header nav button:hover{
+    background-color: ghostwhite;
+    color: orange;
+    box-shadow: 0px 0px 10px 0px;
+    
+}
+
+main{
+    position: relative;
+    left: 150px;
+    top: 70px;
+    width: 600px;
+    padding: 30px;
+}
+
+main h3{
+    color: blueviolet;
+    font-family: 'Belanosima', sans-serif;
+}
+
+main h1{
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+main p{
+    font-size: 1.1rem;
+    font-family: 'Belanosima', sans-serif;
+    color: darkslateblue;
+    position: relative;
+    top: 20px;
+}
+
+main .btn-one{
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    border-style: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+main .btn-one:hover{
+    color: blueviolet;
+    background-color: white;
+    box-shadow: 5px 5px 5px 4px ;
+}
+
+main .btn-two{
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 40px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+    left: 20px;
+}
+
+main .btn-two:hover{
+    background-color: white;
+    border-style: none;
+    box-shadow: 5px 5px 5px 4px;
+    color: orange;
+}
+
+img{
+    position: relative;
+    left: 950px;
+    margin-top: -434px;
+    width: 550px;
+    height: 600px;
+}
+
+footer{
+    background-color: orange;
+    margin-top: -10px;
+}
+
+footer .top{
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+footer .center{
+    text-align: center;
+    font-size: 1.2rem;
+    position: relative;
+    left: -80px;
+    top: -10px;
+}
+
+footer .center a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+footer .center a:hover{
+    color: white;
+}
+
+.center-div{
+    background-color: black;
+    width: 220px;
+    height: 30px;
+    border-radius: 3px;
+    margin: auto;
+    position: relative;
+    left:180px;
+    top: -40px;
+}
+
+.center-div:hover{
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+.center-div a{
+    color: orange;
+    text-decoration: none;
+    font-size: 1.5rem;
+    position: relative;
+    left: 25px;
+}
+
+.center-div a:hover{
+    color: black;
+}
+
+footer hr{
+    margin: auto;
+    width: 700px;
+    margin-top: -30px;
+    border-color: black;
+}
+
+footer .bottom{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 412px){
+    body{
+        background-image: none;
+    }
+
+    header{
+        background-attachment: fixed;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        gap: 1rem;
+    }
+
+    header nav {
+        display: grid;
+        position: relative;
+        left: 20px;
+        gap: 1rem;
+        padding: 10px 15px;
+        font-family: 'Belanosima', sans-serif
+    }
+
+    header div{
+        position: relative;
+        left: -60px;
+        top: 0px;
+        width: 200px;
+        
+    }
+
+    header div a{
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: blueviolet;
+        position: relative;
+        left: 150px;
+    }
+
+
+    main{
+        position: relative;
+        left: -5px;
+        top: -1px;
+        width: 300px;
+        padding: 30px;
+    }
+
+    main h3{
+        color: blueviolet;
+        font-family: 'Belanosima', sans-serif;
+        font-size: 0.9rem;
+    }
+
+    main h1{
+        font-family: cursive;
+        font-size: 2.1rem;
+    }
+
+    main p{
+        font-size: 0.7rem;
+        font-family: 'Belanosima', sans-serif;
+        color: darkslateblue;
+        position: relative;
+        top: 5px;
+    }
+
+    img{
+        position: relative;
+        left: 20px;
+        margin-top: -94px;
+        width: 170px;
+        height: 200px;
+    }
+    
+    main .btn-one{
+        width: 150px;
+        font-size: 0.73rem;
+        position: relative;
+        top: 100px;
+        left: 190px
+    }
+
+    main .btn-two{
+        width: 150px;
+        font-size: 0.73rem;
+        position: relative;
+        left: 190px;
+        top: 110px;
+    }
+
+    footer{
+        background-color: orange;
+        margin-top: 40px;
+    }
+    
+    footer .top{
+        font-size: 0.8rem;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+
+    footer .center{
+        font-size: 1rem;
+    }
+
+    footer .center a{
+        font-size: 1rem;
+    }
+
+    .center-div{
+        width: 140px;
+        height: 17px;
+        position: relative;
+        left:110px;
+        top: -31px;
+    }
+
+    .center-div a{
+        color: orange;
+        font-size: 1rem;
+        position: relative;
+        left: 20px;
+    }
+
+    footer hr{
+        width: 400px;
+        margin-top: -28px;
+    }
+
+    footer .bottom{
+        font-size: x-small;
+    }
+}
